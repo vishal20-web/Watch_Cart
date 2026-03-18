@@ -148,7 +148,7 @@ const addToCart = (event, id, price) => {
 	if(qty >= 1){
 	StorageArray.push({id ,name, image, qty, price});
 	localStorage.setItem("key", JSON.stringify(StorageArray));
-	alert(localStorage.getItem("key")); 
+	
 	}
 	else{alert("Please Select Quantity")}
 

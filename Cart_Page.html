@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="Cart_page.css">
+</head>
+<body>
+    <header>
+
+
+        <!-------------------- NAVIGATION BAR start-------------------------->
+        <div class="navbar">
+            <div class="nav-logo f1">
+                <div class="logo"></div>
+            </div>
+            <div class="nav-add f1">
+                <p class="add-first">Location</p>
+                <div class="add">
+                    <select class="location">
+				<option>India</option>
+				<option>US</option>
+				<option>China</option>
+				<option>Japan</option>
+				<option>Australia</option>
+			</select>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search" class="search-input">
+                <div class="search">
+                    <p>Search</p>
+                </div>
+            </div>
+		<div class="nav-about f1">
+			<p class="nav-second">About</p>
+		</div>     
+            <div class="nav-signin f1">
+                <p><span>sign up</span></p>
+                <p class="nav-second">Login</p>
+            </div>
+            <div class="nav-return f1">
+                <p><span>Returns</span></p>
+                <p class="nav-second">Orders</p>
+            </div>
+            <div class="nav-cart f1">
+			<div><a href="Cart_Page.html" style="text-decoration :none; font-family:arial; color : white; font-weight: bold;">Cart</a></div>
+			<p class="cartValue"></p>
+		</div>
+        </div>
+		<!------------------- NAVIGATION BAR end---------------------->
+
+
+
+        <!------------------------------ PANEL start -------------------------------------------->
+        <div class="panel">
+            <div class="panel-all">All</div>
+            <div class="panel-ops">
+                <p>New Releases</p>
+                <p>Analog Watches</p>
+                <p>Smart Watches</p>
+                <p>Best Sellers</p>
+                <p>Discounts</p>
+    </header>
+
+	<!------------------------------ PANEL end ----------------------------------------------->
+
+
+
+   
+    <!--------------------------- CART SECTION start--------------------->
+    <div class="shop_section" id="shop-sec-id"> 
+
+	<template id = "template-id" >
+	
+
+        <div class="card" id= "card-no">
+            	<div class="card-content">
+            		<h2 class = "product-name"></h2>
+
+            		
+		
+			<div><p class="prd-price"></p></div>
+		
+			<div class = "purchase">
+				<p class = "purchase-qty">Quantity :</p>
+
+				<div class="purchase-num">
+					<button class="plus">+</button>
+					<int class="purchase-no"></int>
+					<button class="minus">-</button>
+				</div>
+			</div>
+
+           
+            		<button class="removefromCart">Remove</button>
+        	</div>
+        </div>
+	</template>
+
+	
+</div>
+
+	
+
+<!--------------------------------- CART SECTION end------------------------->
+
+
+<!--------------------------------- PAYMENT SECTION start------------------------->
+
+
+<div class = "payment_summery_section">
+	<div class = "payment_summery">
+		<div class = "sub_total_section">
+			<p> Subtotal : </p>
+			<p class = "sub_total"></p>
+		</div></br>
+		<div class = "delivery_charge_section">
+			<p> Delivery Charges : </p>
+			<p class ="delivery_charge"></p>
+		</div></br>
+		<div class = "total_section"> 
+			<p> Total : </p>
+			<p class = "total"></p>
+		</div>
+	</div>
+</div>
+
+
+<!--------------------------------- PAYMENT SECTION end------------------------->
+
+
+    <footer>
+        <div class="foot-note">
+            <p>Back to Top</p>
+        </div>
+        <div class="foot-body">
+            <div class="book">
+                <h3>Get To Know Us</h3>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Press Releases</p>
+                
+            </div>
+            <div class="book">
+                <h3>ToConnect with Us </h3>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </div>
+            <div class="book">
+                <h3>Become a Seller</h3>
+                <p>Seller Policy</p>
+                <p> Sellers under us</p>
+                
+            </div>
+            <div class="book">
+                <h3>Help & Support</h3>
+                <p>Contact Us</p>
+                <p>Privacy Policy</p>
+                <p>Terms and Condition</p>
+            </div>
+        </div>
+        <div class="foot-end">
+            <div class="note">
+                <a>#RevivingValues</a>
+                <p>Made in India</p>
+            </div>
+
+            <div class="social">
+                <div class = "YouTube icon" ></div>
+			<div class = "Insta icon"></div>
+            </div>
+            
+        </div>
+		 <div class="last">
+            <p>Watch Cart © 2025</p>
+            </div>
+        
+    
+    </footer>
+
+	<script src="Cart_script.js"></script>
+</body>
+</html>
